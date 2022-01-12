@@ -1,0 +1,55 @@
+#work{
+    visibility:hidden;
+    z-index: 2;
+    background: #fff;
+    width: 65%;
+    height: 75%;
+    position: absolute;
+    margin:auto;
+    top: 12.5%;
+    left: 17.5%;
+}
+#operations{
+    overflow-y: scroll;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: calc(17.5% - 30px);
+    max-height: calc(100% - 30px);
+}
+#anim{
+    border: 5px solid #0000FF;
+    z-index: 2;
+    background: url("../img/texture.png");
+    background-repeat: repeat;
+    width: calc(65% - 10px);
+    height: calc(75% - 50px);
+    position: absolute;
+    margin:auto;
+    bottom: 0;
+    left: calc(17.5% + 5px);
+}
+#playButton{
+    margin-bottom: 1rem;
+}
+#closeButton{
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+}
+.animButton{
+    position: absolute;
+    bottom: 50px;
+    left: 5px;
+    display: none;
+}
+#startButton{
+    display: block;
+}
+#square {
+    display: block;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    background-color: green;
+}

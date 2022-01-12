@@ -1,0 +1,164 @@
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.boxhf {
+    border-radius: 10px;
+    border-width: 1px;
+    border-style: solid;
+    padding: 20px;
+    display: flex;
+    height: auto;   
+
+}
+
+.box {
+    border-radius: 10px;
+    border-width: 1px;
+    border-style: solid;
+
+    display: flex;
+    height: auto;  
+    width: auto;
+    max-width: 320px;
+    margin: 20px;
+
+}
+
+.righthalf{
+    flex-direction: column;
+    max-width: 600px;
+    margin-top: 20px;
+}
+
+.twocontainers{
+    margin: 0;
+    padding: 0;
+}
+.one {
+    grid-column: col1-start / col4-end;
+    background-color: rgb(48, 120, 187);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.two {
+    background-color: rgb(236, 151, 112);
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.three {
+
+    background-color: rgb(94, 233, 147);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.four {
+    background-color: rgb(236, 151, 112);
+    justify-content: center;
+    align-items: center;
+    min-height: 150px;
+    margin-bottom: 10px;
+}
+
+.five {
+    background-color:white;
+    justify-content: center;
+    align-items: center;
+    max-width: 250px; 
+    margin-right: 40px;
+}
+
+.six {
+    background-color: rgb(94, 233, 147);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 200px;
+}
+
+
+
+
+.seven {
+    background-color: rgb(48, 120, 187);
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
+
+a .nav-btn {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+div .nav-btn {
+    text-decoration: none;
+    color: black;   
+    padding: 10px;
+    display: flex;
+    width: 40%;
+    border-radius: 10px;
+    border-width: 1px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.btn-active {
+    background-color: rgb(100, 100, 100);
+}
+
+.btn-inactive {
+    background-color: white;
+}
+
+
+
+.accordion{
+    width: 90%;
+    margin: 2rem;
+}
+
+
+.x {
+    margin-left: 50px;
+    width: 30%;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.y {
+    margin-right: 50px;
+    width: 30%;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+ol{
+    max-width: 400px;
+}
+
+
+.textarea{
+    /*max-width: 200px;*/
+    background: transparent;
+    color: transparent;
+    border: 0 none;
+    width: 100%;
+    outline: none;
+}

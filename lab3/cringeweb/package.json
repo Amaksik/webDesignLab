@@ -1,0 +1,22 @@
+{
+  "name": "cringeweb",
+  "version": "1.0.0",
+  "description": "- [ ] https://lab1web.netlify.app/",
+  "main": "lab3.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amaksik/cringeweb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Amaksik/cringeweb/issues"
+  },
+  "homepage": "https://github.com/Amaksik/cringeweb#readme",
+  "dependencies": {
+    "axios": "^0.24.0"
+  }
+}
